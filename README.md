@@ -13,3 +13,5 @@ Using the existing code, add the following functionality.
   - Keep state of account(s) between runnings of ATM
 - Add a means to LOG all transaction data to a logfile
 - Add ability to show transaction history for each account to user.
+
+You may have to remind yourself how to add `pom.xml` file and make it a Java project in your IDE.
