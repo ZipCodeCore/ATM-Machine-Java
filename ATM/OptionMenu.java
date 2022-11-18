@@ -45,7 +45,7 @@ public class OptionMenu {
 		while (!end) {
 			try {
 				System.out.println("\nSelect the account you want to access: ");
-				System.out.println(" Type 1 - Checkings Account");
+				System.out.println(" Type 1 - Checking Account");
 				System.out.println(" Type 2 - Savings Account");
 				System.out.println(" Type 3 - Exit");
 				System.out.print("\nChoice: ");
@@ -76,7 +76,7 @@ public class OptionMenu {
 		boolean end = false;
 		while (!end) {
 			try {
-				System.out.println("\nCheckings Account: ");
+				System.out.println("\nChecking Account: ");
 				System.out.println(" Type 1 - View Balance");
 				System.out.println(" Type 2 - Withdraw Funds");
 				System.out.println(" Type 3 - Deposit Funds");
@@ -88,7 +88,7 @@ public class OptionMenu {
 
 				switch (selection) {
 				case 1:
-					System.out.println("\nCheckings Account Balance: " + moneyFormat.format(acc.getCheckingBalance()));
+					System.out.println("\nChecking Account Balance: " + moneyFormat.format(acc.getCheckingBalance()));
 					break;
 				case 2:
 					acc.getCheckingWithdrawInput();
@@ -98,7 +98,7 @@ public class OptionMenu {
 					break;
 
 				case 4:
-					acc.getTransferInput("Checkings");
+					acc.getTransferInput("Checking");
 					break;
 				case 5:
 					end = true;
